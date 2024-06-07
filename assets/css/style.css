@@ -1,0 +1,443 @@
+@keyframes floatUp{
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.travel {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: red;
+    font-size: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image:  url('../img/newyork2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: floatUp 4s ease forwards;
+}
+
+.title {
+    text-align: center;
+    font-size: 330px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.city1 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.chicago1 {
+    display: flex;
+}
+
+.chicago1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.chicago2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.chicago2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city2 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.paris1 {
+    display: flex;
+}
+
+.paris1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.paris2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.paris2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city3 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.london1 {
+    display: flex;
+}
+
+.london1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.london2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.london2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.city4 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.bangkok1 {
+    display: flex;
+}
+
+.bangkok1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.bangkok2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.bangkok2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city5 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.kualalumpur1 {
+    display: flex;
+}
+
+.kualalumpur1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.kualalumpur2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+
+}
+
+.kualalumpur2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city6 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.shanghai1 {
+    display: flex;
+}
+
+.shanghai1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.shanghai2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.shanghai2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city7 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.seoul1 {
+    display: flex;
+}
+
+.seoul1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.seoul2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.seoul2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city8 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.hanoi1 {
+    display: flex;
+}
+
+.hanoi1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.hanoi2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.hanoi2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.city9 {
+    width: 20%;
+    /* height: 310px; */
+    display: flex;
+}
+
+.tokyo1 {
+    display: flex;
+}
+
+.tokyo1 > a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.tokyo2 > h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.tokyo2 > p {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+p {
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.guide {
+    font-size: 30px;
+    list-style: none;
+}
+
+.guide > li >a {
+    color: red;
+}
+
+.card {
+    margin: 12rem 12rem 0 12rem;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px ;
+    background-color: #ede8e4;
+}
+
+section:has(#profile) {
+    margin-bottom: 20rem;
+    position: relative;
+}
+
+#profile {
+    margin: 12rem 12rem 0 12rem;
+    padding: 10px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    grid-template-rows: 400px;
+    background-color: #ede8e4;
+    padding: 10px;
+    display: flex;
+}
+
+#profile > img {
+    padding: 20px 0 20px 20px;
+}
+
+h3 {
+    font-family: impact;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.myself > p {
+    font-family: serif;
+}
+
+.sns-btn {
+    text-align: right;
+}
+
+.sns-btn > li {
+    list-style: none;
+}
+
+.sns-btn img {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    margin-right: 220px;
+    margin-top: 15px;
+}
+
+#toppage {
+    width: 100%;
+    padding: 20px;
+    font-family: serif;
+    font-size: 20px;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: -317px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    font-family: serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin: unset;
+    }
+    .city1,
+    .city2,
+    .city3,
+    .city4,
+    .city5,
+    .city6,
+    .city7,
+    .city8,
+    .city9,
+    #profile
+{
+        flex-direction: column;
+        width: 100%;
+    }
+    .chicago1,
+    .paris1,
+    .london1,
+    .bangkok1,
+    .kualalumpur1,
+    .hanoi1,
+    .seoul1,
+    .shanghai1,
+    .tokyo1,
+    #profile
+    {
+        order: 2;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
